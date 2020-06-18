@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<!DOCTYPE MBeanType SYSTEM "commo.dtd">
+ 
+<MBeanType
+ Name          = "CZOBDXDBAuthenticator"
+ DisplayName   = "com.ofss.digx.cz.ccq.sms.dbAuthenticator"
+ Package       = "com.ofss.digx.cz.ccq.sms.dbAuthenticator"
+ Extends       = "weblogic.management.security.authentication.Authenticator"
+ Implements    = "weblogic.management.security.authentication.ServletAuthenticationFilter"
+ PersistPolicy = "OnUpdate"
+>
+ 
+ <MBeanAttribute
+  Name          = "ProviderClassName"
+  Type          = "java.lang.String"
+  Writeable     = "false"
+  Default       = "&quot;com.ofss.digx.cz.ccq.sms.dbAuthenticator.DBAuthenticationProviderImpl&quot;"
+ />
+ 
+ <MBeanAttribute
+  Name          = "Description"
+  Type          = "java.lang.String"
+  Writeable     = "false"
+  Default       = "&quot; cz OBDX - DB Authenticator &quot;"
+ />
+ 
+ <MBeanAttribute
+  Name          = "Version"
+  Type          = "java.lang.String"
+  Writeable     = "false"
+  Default       = "&quot;1.0&quot;"
+ />
+
+</MBeanType>

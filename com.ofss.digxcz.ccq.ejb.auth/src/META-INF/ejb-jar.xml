@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (c) 2012, Oracle and/or its affiliates. All rights reserved. -->
+<ejb-jar xmlns='http://java.sun.com/xml/ns/javaee'
+         xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+         metadata-complete='true'>
+<enterprise-beans>
+    <session>
+      <ejb-name>CZAuthEJB</ejb-name>
+      <mapped-name>CZAuthBean</mapped-name>
+      <business-remote>com.ofss.digx.cz.ccq.ejb.auth.ICZAuthBean</business-remote>
+      <ejb-class>com.ofss.digx.cz.ccq.ejb.auth.CZAuthBean</ejb-class>
+      <session-type>Stateless</session-type>
+      <transaction-type>Bean</transaction-type>
+    </session>
+  </enterprise-beans>
+</ejb-jar>

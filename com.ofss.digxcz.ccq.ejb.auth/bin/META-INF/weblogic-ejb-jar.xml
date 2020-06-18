@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (c) 2012, Oracle and/or its affiliates. All rights reserved. -->
+<weblogic-ejb-jar xmlns="http://xmlns.oracle.com/weblogic/weblogic-ejb-jar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://xmlns.oracle.com/weblogic/weblogic-ejb-jar/1.1/weblogic-ejb-jar.xsd"> 
+	<weblogic-enterprise-bean>
+		<ejb-name>CZAuthBean</ejb-name>
+		<jndi-name>CZAuthBean</jndi-name>
+	</weblogic-enterprise-bean>
+</weblogic-ejb-jar>
